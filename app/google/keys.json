@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "testworkfornova-405315",
+  "private_key_id": "783b21e48495ecc97550122a09ef25bd02e8e413",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdMxGPGn8xEOOb\nYsavPmD/a00pEqdpjw81/BAX7yXQsN8pkvuPUGeiZ4RsUpTej2uZ+t6wF4peuxuB\nf8dV7WSTlWr6kruxWOoaiiMGasMlJ7KRFg+1jkw0sYm3uZyaiACaZDUCgwBqZi/Z\n1JG9BV6bdErGKWThkQRJbtpxEcA4L1XWiJJyfXwK1kIO5uBIbwkSwZ49mDF1NQnr\nZfKpekGg4UTPgZc/9o24tCQdFDVWj0bwRAzCHbDCrcdJ897aeYVRXbCyq+LQ4DvN\nF9OYonyNttOhP0JgoN3df9GFME8hAqLrBYVY78MCrS4nO8LoGuR5T18sMwmE/+OW\n4t//pFuzAgMBAAECggEAQkxfg3MxYYg19jragN5WGmMuz7vGT4a+a447W1zJHhL6\ni5Yp8m9+xcfS2byafKMQRoi/kpTbDsjq+NrjPyI34OaLj9KCxnExiq/nxbURSIJN\nlVMwnOm+yhp2cr4dhi8F0hehI8YMTtN6Kuyz6nxxQi7xulGK8ncuz6mpBzbtUsQ6\nwRLbxDtgjYvO2zCS4wV+04COijhmO69cEyfEt6b/TE+jfXaUcx54yRLJJqk/h96b\nxSbRKCalfv94wZ1gL/gHgXujVyc6UfJjDD79bJCEottyGOUDCnp1/LWTDUe57GUq\nMOjVGzdwoGruWV/qo3mZFQj4SAs+8xVuqW06ESYNgQKBgQDIoiqd+lNeSA4dBFBQ\nJV573Agv1GHndNJREA4VvbGgVJY4U+kNGRrr9XJUA8loU11COxdSUm0FqsP6nIz8\n3s16W6Yhn2zYqheFgYCsauUN2C8xTt5LsDKGbttmD39YSEzhiTFYRhcC4T0/8glh\nUcsiS2lbI7nyXmSDtdGH/NJ9mwKBgQDIlH2ydW5QXAuH5OD5Bd4TUUGZlTwQdy7b\ngp2DkTRf6kZO+SsoLolsfgTPyfzefRmIfSJx1Q358+5SVemSDwJLe6cQpHMdesPG\niOwzAEOuskTT/+swfQgo1XQvkGn89VG9UyFA98J8e5QZvG/q2s+H8+/SO0UVrzLP\nQVscThmHyQKBgE0jNDlq3hS4pVx4pRw7UdlTHn6tLDseCiKKhq/LL/jRrLPZZxfX\nGCeyRZORpSUMMCXfrDbFZA8yuYioGfi6/MtXY0c4EVQ4CTUWNk+UBZ7OCE7v4L2+\n754KDyZtPOvHWG+6HJOw1vYPfUoRl5OoK+5yif41fS93JTQSeo3LIW6TAoGAXPuh\nTZJsoioZWlT7CdXzfgcEHxt0bbmiajYhqPUuT2x+TWvq2sTABiBhQKZFaCqcJI7F\n4fk/cmjnSRn0njYA/VcEOo3Ro4/eo/GjdX0g4yJXD+Qqdh7wImXZZ5dN2usqila4\nKrLwYN606D1XsIrg/AhUW6QIQaYnKrcEcpmt8ikCgYEAod2/A8MWS6ToSxqxViuW\n/CcT+je/Jkt4Kps6ulRZhBc/cErzA4W9MhjUS1FnYV9/d/9USb9Fe6gswOeaztFP\nt6XgHh4eJLqHBC9W/ZHpLiNHKlj9T9W0/G+8IX/gBtXI82wP30hiayQZY0j7CgqM\nVPBq5omrPWa14Hv/iGlH5Cg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "testfornova@testworkfornova-405315.iam.gserviceaccount.com",
+  "client_id": "108510275568291172579",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/testfornova%40testworkfornova-405315.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -3,6 +3,8 @@ import json
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 
+from app.google.google_docs import googleAPI
+
 
 @csrf_exempt
 def endpoint(request):
@@ -10,8 +12,11 @@ def endpoint(request):
     if request.method == 'POST':
         res: dict = json.loads(request.body)
         try:
-            file_name = res['name']
-            file_text = res['data']
+            new_file = {
+                'filename': res['name'],
+                'body': res['data'],
+            }
+            googleAPI.create_file(**new_file)
         except KeyError:
             return HttpResponse('Ошибка: Не переданы необходимые параметры')
 
