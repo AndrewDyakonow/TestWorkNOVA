@@ -23,3 +23,13 @@ def endpoint(request):
         return HttpResponse('Документ создан')
     else:
         return HttpResponse('Попробуйте выполнить POST запрос')
+
+
+@csrf_exempt
+def delete_docs(request):
+    """Удалить все созданные файлы"""
+    if request.method == 'DELETE':
+        googleAPI.delete_file()
+        return HttpResponse('Все документы удалены')
+    else:
+        return HttpResponse('Не получилось')

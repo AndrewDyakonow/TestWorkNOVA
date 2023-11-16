@@ -1,9 +1,7 @@
-from pprint import pprint
-from typing import Any, Union
-
-from google.oauth2.service_account import Credentials
 from app.google.settings import CONFIG_FILE, SCOPE, USER_PERMISSIONS
+from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
+from typing import Any, Union
 
 
 class GoogleServicesAPI:
@@ -16,11 +14,11 @@ class GoogleServicesAPI:
         return build("docs", "v1", credentials=self.creds)
 
     @property
-    def drive_google(self):
+    def drive_google(self) -> Any:
         """Объект google drive"""
         return build("drive", "v3", credentials=self.creds)
 
-    def create_file(self, **kwargs):
+    def create_file(self, **kwargs) -> Any | None:
         """Создать файл"""
         body = {
             'title': kwargs['filename'],
@@ -73,10 +71,11 @@ class GoogleServicesAPI:
             return text
         return "Доступ предоставлен"
 
-    def delete_file(self, file_id: str) -> str | Any:
-        """Удалить файл"""
+    def delete_file(self) -> str | Any:
+        """Удалить файлы"""
         try:
-            self.drive_google.files().delete(fileId=file_id).execute()
+            for file in self.show_file_list():
+                self.drive_google.files().delete(fileId=file['id']).execute()
         except Exception as text:
             return text
         return "Файл удалён"
