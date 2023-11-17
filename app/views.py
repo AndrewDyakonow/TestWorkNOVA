@@ -13,8 +13,8 @@ def endpoint(request):
         res: dict = json.loads(request.body)
         try:
             new_file = {
-                'filename': res['name'],
-                'body': res['data'],
+                'filename': str(res['name']),
+                'body': str(res['data']),
             }
             googleAPI.create_file(**new_file)
         except KeyError:
